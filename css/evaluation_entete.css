@@ -1,0 +1,84 @@
+body{
+	background-image: url("1.jpg");
+}
+li
+{
+	font-size: 1rem;
+}
+a{
+	color: #ffffff; /* couleur blanche */
+	text-decoration: none; /* pour enlever le tres de soulignement sur les liens */
+}
+.hhead
+{
+background-color: ;
+}
+.logo
+{
+color: black;
+}
+nav
+{
+	min-height:8vh;
+	display: flex; /* pour permettre au lien de decaler vers le h1*/
+	align-items: center;
+	margin: auto;
+}
+nav ul{
+	display: flex;
+	flex: 1 1 20%;
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;/*pour enlever le point devant les liens*/
+}
+#logo{
+	flex: 1 1 20%;
+}
+.lhead{
+ background-color: red;
+}
+
+.btn {
+    background: #011c37;
+    color: #15DEA5;
+    font-size: 3rem;
+    cursor: pointer;
+    padding: 2px;
+    border-radius: 10rem;
+    transform: scale(1);
+    transition: transform 400ms;
+    text-align: center;
+}
+.btn:hover{
+        transform: scale(0.5);
+}
+
+.btl {
+    background: #011c37;
+    color: #15DEA5;
+    font-size: 3rem;
+    cursor: pointer;
+    padding: 2px;
+    border-radius: 10rem;
+    transform: scale(1);
+    transition: transform 400ms;
+    text-align: center;
+}
+.btl:hover{
+        transform: scale(0.75);
+}
+
+.btm {
+    background: #011c37;
+    color: #15DEA5;
+    font-size: 3rem;
+    cursor: pointer;
+    padding: 2px;
+    border-radius: 10rem;
+    transform: scale(1);
+    transition: transform 400ms;
+    text-align: center;
+    }
+.btm:hover{
+        transform: scale(0.85);
+}

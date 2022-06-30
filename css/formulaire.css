@@ -1,0 +1,20 @@
+ .formulaire
+{
+	margin-left: 38%;
+	width: 100px;
+	padding: 12px;
+	border-width: 1px;
+}
+.envoyer
+{
+	margin-left:10px;
+}
+body{
+	background-image: url('css/image1.jpeg');
+}
+.lfiel{
+	background-color: blue;
+}
+fieldset{
+	background-color: green;
+}

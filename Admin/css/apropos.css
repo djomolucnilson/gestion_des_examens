@@ -1,0 +1,12 @@
+body
+{
+	padding: 0px;
+	margin: 0px;
+	background-image: url("image1.jpeg");
+}
+.texte
+{
+	color: white;
+	display: center;
+	background-color: black;
+}

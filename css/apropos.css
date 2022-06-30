@@ -1,0 +1,46 @@
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background-image: url("image1.jpeg");
+}
+.texte
+{
+	color: white;
+	display: center;
+	background-color: black;
+}
+li
+{
+	font-size: 1rem;
+}
+a{
+	color: #ffffff; /* couleur blanche */
+	text-decoration: none; /* pour enlever le tres de soulignement sur les liens */
+}
+.hhead
+{
+background-color: green;
+}
+.logo
+{
+color: black;
+}
+nav
+{
+	min-height:8vh;
+	display: flex; /* pour permettre au lien de decaler vers le h1*/
+	align-items: center;
+	margin: auto;
+}
+nav ul{
+	display: flex;
+	flex: 1 1 20%;
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;/*pour enlever le point devant les liens*/
+}
+#logo{
+	flex: 1 1 20%;
+}
